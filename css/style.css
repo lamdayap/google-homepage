@@ -31,6 +31,11 @@ div {
     width: 582px;
 }
 
+.search_form:hover, .searh_form:focus {
+    border: 1px solid rgba(223,225,229,0);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
 .search_icon {
     margin-top: 5px;
     display: flex;
