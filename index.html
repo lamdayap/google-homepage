@@ -3,24 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <title>Google Homepage</title>
+        <link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
     <div class="main">
+        <div class="navbar">
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+                <li>Gmail</li>
+                <li>Images</li>
+            </ul>
+        </div>
         <div class="content">
             <img alt="Google icon" height="196" src="https://www.google.com/logos/doodles/2020/thank-you-food-service-workers-6753651837108761-law.gif">
             <div class="search_form">
                 <span class="search_icon">
                     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-                            
+
                         </path>
                     </svg>
                 </span>
                 <input maxlength="2048" name="q" type="text" title="Search" aria-label="Search">
             </div>
+            <div class="search_buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="Im feeling lucky">
+                <a href="#">To all food service workers, thank you</a>
+            </div>
         </div>
-    </div>    
+        
+        <div class="footer">
+            <span class="footer_top">
+                <ul>
+                    <li>Australia</li>
+                </ul>
+            </span>
+            <div class="footer_bottom">
+                <ul>
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>How Search Works</li>
+                    <li class="right">Privacy</li>
+                    <li class="right">Terms</li>
+                    <li class="right">Settings</li>
+                </ul>
+            </div> 
+        </div>
+    </div> 
     </body>
 </html>
